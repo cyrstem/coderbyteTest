@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/cyrstem/coderbyteTest/issues"
   },
-  "homepage": "https://github.com/cyrstem/coderbyteTest#readme"
+  "homepage": "https://github.com/cyrstem/coderbyteTest#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
