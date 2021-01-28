@@ -4,12 +4,10 @@ body{
     text-align: center;
 }
 .header{
-    /* width: 100%;
-    height: auto; */
+
     color:white;
     background: transparent url('assets/HeroLG.svg') 70% 0% no-repeat padding-box;
     background-size: cover;
-	/* background-attachment: fixed; */
 	position: relative;
 	overflow: hidden;
     /* border-radius: 0 0 0 0;	 */
@@ -45,9 +43,16 @@ body{
   }
 
 .logo{
-margin: 5px;
+
 width: 175px;
 height: 27px;
 background: transparent url('assets/logo.svg') 0% 0% no-repeat padding-box;
 opacity: 1;
+}
+
+
+b{
+    color:#0084FF;
+    text-decoration: none;
+    font-weight: 800;
 }
