@@ -57,5 +57,8 @@ b{
     font-weight: 800;
 }
 
+.carousel-item.active {
+    display: inline-flex;
+}
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */

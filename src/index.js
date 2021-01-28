@@ -1,4 +1,10 @@
 console.log("hello");
-
-import jquery from 'jquery'
-import boostrap from 'bootstrap/dist/js/bootstrap.min.js'
+// window.onload = function() {
+//     if (window.jQuery) {  
+//         // jQuery is loaded  
+//         alert("Yeah!");
+//     } else {
+//         // jQuery is not loaded
+//         alert("Doesn't Work");
+//     }
+// }
