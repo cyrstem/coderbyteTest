@@ -60,5 +60,21 @@ b{
 .carousel-item.active {
     display: inline-flex;
 }
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+  }
+
+  
+
+  @media only screen and (max-width: 600px) {
+    .header{
+        background: transparent url('/Hero.0a617fa1.svg') 70% 0% no-repeat padding-box;
+
+
+    }
+  }
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */

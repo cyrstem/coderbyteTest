@@ -25,7 +25,7 @@
 <header class="header">
     <div class="container w-100">
         <div class="row h-100 justify-content-center align-items-center">
-            <div class="col-md-7 col-lg-3 p-4">
+            <div class="col-md-7 col-lg-3">
                 <p>That’s not soon enough!</p>
                 <h4 style="color: #FFFC00; text-transform: uppercase;">There’s only one</h4>
                 <h4 style="color: #FFFC00; text-transform: uppercase;">course of action</h4>
@@ -36,7 +36,7 @@
                 <iframe src="https://player.vimeo.com/video/279738347" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="row h-100 justify-content-center align-items-center p-4">
+        <div class="justify-content-center align-items-center my-3 p-2 mx-auto">
             <div><button class="btn btn-lg btn-warning" ">CLICK HERE!</button></div>
         </div>
     </div>
@@ -73,9 +73,9 @@
 <div class="container">
     <div class="row w-100 p-4">
         <div class="carousel slide w-100" data-ride="carousel">
-            <div class="carousel-inner w-100" role="listbox">
+            <div class="carousel-inner" role="listbox">
                 <div class="carousel-item row no-gutters active">
-                    <div class=" col-3 ">
+                    <div class=" col-3">
                         <img srcset="assets/pic1x2.png 80w,
                                     assets/pic1x1.png 800w"
                                     sizes="(max-width: 600px) 480px,
@@ -113,14 +113,19 @@
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
+            <!-- <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
             <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
-            </a>
+            </a> -->
+            <ol class="carousel-indicators d-sm-none .d-md-block">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
         </div>
     </div>
     <div class="row  h-100 justify-content-center align-items-center">
