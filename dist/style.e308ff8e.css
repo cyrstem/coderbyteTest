@@ -2,14 +2,24 @@ body{
     background: white;
     padding: 5px;
 }
+header{
+    padding: 60px;
+    background: transparent url('/HeroLG.ca44cc60.svg') 0% 0% no-repeat padding-box;
+}
 
 .btn{
     border-radius: 23px;
 
 }
 
-.jumbotron{
-background: transparent url('/HeroLG.ca44cc60.svg') 0% 0% no-repeat padding-box;
+.jumbatron{
+background: transparent;
+}
+.middle{
+    background: wheat;
+}
+.end{
+    background: #EAF7FF;
 }
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */

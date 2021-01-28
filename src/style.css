@@ -2,12 +2,22 @@ body{
     background: white;
     padding: 5px;
 }
+header{
+    padding: 60px;
+    background: transparent url('assets/HeroLG.svg') 0% 0% no-repeat padding-box;
+}
 
 .btn{
     border-radius: 23px;
 
 }
 
-.jumbotron{
-background: transparent url('assets/HeroLG.svg') 0% 0% no-repeat padding-box;
+.jumbatron{
+background: transparent;
+}
+.middle{
+    background: wheat;
+}
+.end{
+    background: #EAF7FF;
 }
