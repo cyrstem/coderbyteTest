@@ -3,10 +3,10 @@ body{
     padding: 0;
     text-align: center;
 }
-header{
-    padding: 60px;
+.header{
+   color:white;
     background: transparent url('/HeroLG.ca44cc60.svg') 0% 0% no-repeat padding-box;
-   
+    /* border-radius:; */
 }
 
 .btn{
@@ -30,6 +30,14 @@ background: transparent;
 }
 .title {
     color: black;
+}
+.logo{
+top: 26px;
+left: 725px;
+width: 175px;
+height: 27px;
+background: transparent url('/logo.b37d81ec.svg') 0% 0% no-repeat padding-box;
+opacity: 1;
 }
 
 /*# sourceMappingURL=/style.e308ff8e.css.map */
